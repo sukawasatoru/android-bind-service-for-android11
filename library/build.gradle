@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.library'
+    id 'com.diffplug.spotless'
+    id 'kotlin-android'
+}
+
+android {
+    buildFeatures {
+        buildConfig false
+        resValues false
+    }
+}
+
+dependencies {
+    testImplementation libs.androidx.test.junit
+    testImplementation libs.androidx.test.truth
+}

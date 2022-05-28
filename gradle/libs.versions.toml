@@ -1,0 +1,83 @@
+[versions]
+accompanist = "0.20.2"
+androidx-activity = "1.4.0"
+androidx-compose = "1.1.1"
+androidx-lifecycle = "2.4.1"
+androidx-navigation = "2.4.2"
+androidx-paging = "3.1.1"
+androidx-room = "2.4.2"
+androidx-test = "1.4.0"
+apollo = "2.5.11"
+exoplayer = "2.17.1"
+glide = "4.12.0"
+hilt = "2.42"
+kotlinx-coroutine = "1.6.2"
+okhttp = "4.9.3"
+protobuf = "3.19.1"
+
+[libraries]
+# for view-system
+androidx-activity-activity = { module = "androidx.activity:activity-ktx", version.ref = "androidx-activity" }
+androidx-constraint-constraint = "androidx.constraintlayout:constraintlayout:2.1.4"
+androidx-coordinator = "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
+androidx-fragment = "androidx.fragment:fragment-ktx:1.4.1"
+androidx-leanback = "androidx.leanback:leanback:1.0.0"
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation" }
+androidx-recyclerView = "androidx.recyclerview:recyclerview:1.2.1"
+androidx-swipeRefresh = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+accompanist-swipeRefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
+androidOssLicenses = "com.google.android.gms:play-services-oss-licenses:17.0.0"
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-compose-uiTooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose" }
+androidx-compose-material-material = { module = "androidx.compose.material:material", version.ref = "androidx-compose" }
+androidx-compose-material-iconsCore = { module = "androidx.compose.material:material-icons-core", version.ref = "androidx-compose" }
+androidx-compose-material-iconsExtended = { module = "androidx.compose.material:material-icons-extended", version.ref = "androidx-compose" }
+androidx-constraint-compose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+androidx-core = "androidx.core:core-ktx:1.7.0"
+androidx-datastore = "androidx.datastore:datastore:1.0.0"
+androidx-lifecycle-compiler = { module = "androidx.lifecycle:lifecycle-compiler", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-service = { module = "androidx.lifecycle:lifecycle-service", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewModelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
+androidx-paging-common = { module = "androidx.paging:paging-common-ktx", version.ref = "androidx-paging" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
+androidx-profileInstaller = "androidx.profileinstaller:profileinstaller:1.1.0"
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidx-room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
+androidx-test-core = { module = "androidx.test:core-ktx", version.ref = "androidx-test" }
+androidx-test-junit = "androidx.test.ext:junit-ktx:1.1.3"
+androidx-test-rules = { module = "androidx.test:rules", version.ref = "androidx-test" }
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test" }
+androidx-test-truth = { module = "androidx.test.ext:truth", version.ref = "androidx-test" }
+androidx-viewPager2 = "androidx.viewpager2:viewpager2:1.0.0"
+apollo-apollo = { module = "com.apollographql.apollo:apollo-android-support", version.ref = "apollo" }
+apollo-api = { module = "com.apollographql.apollo:apollo-api", version.ref = "apollo" }
+apollo-cacheSqlite = { module = "com.apollographql.apollo:apollo-normalized-cache-sqlite", version.ref = "apollo" }
+apollo-coroutine = { module = "com.apollographql.apollo:apollo-coroutines-support", version.ref = "apollo" }
+apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime", version.ref = "apollo" }
+exoplayer-exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
+exoplayer-okhttp = { module = "com.google.android.exoplayer:extension-okhttp", version.ref = "exoplayer" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+glide-glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-okhttp3Integration = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "glide" }
+hilt-hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+kotlinx-coroutines-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutine" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutine" }
+kotlinx-serializationJson = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+kotlinResult = "com.michael-bull.kotlin-result:kotlin-result:1.1.13"
+material = "com.google.android.material:material:1.4.0"
+mockito-kotlin = "org.mockito.kotlin:mockito-kotlin:4.0.0"
+okhttp-okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp-mockWebServer = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
+protobuf-protoc = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
+protobuf-lite = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf" }
+robolectric = "org.robolectric:robolectric:4.8.1"
+tinyport-logger = "jp.tinyport:logger:0.1.0"
+
+[bundles]
